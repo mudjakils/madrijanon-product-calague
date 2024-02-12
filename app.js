@@ -11,15 +11,24 @@ fetch('data.json')
 
             cardItem.innerHTML = `
                 <div class="img-box">
-                    <img src="${product.image}" alt="${product.Name}">
+                    <img src="" alt="${product.Name}">
                 </div>
                 <div class="details">
-                    <p>${product.Name}</p>
+                    <p></p>
                     <h2>${product.price}</h2>
                     <button class="addToCartBtn">Add to Cart</button>
                     <button class="cancelBtn">Cancel</button>
                     <p>Quantity: <span class="clickCount">${clickCount}</span></p>
                 </div>
+
+                <div class="card" style="width: 18rem;">
+  <img src="${product.image}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">${product.Name}</h5>
+    <p class="card-text">The Audi R8 Spider is the drop-top version of the brand's successful R8 supercar. It not only looks more dramatic but the sound of that wonderful V10 is further amplified. </p>
+    <a href="#" class=" btn btn-primary"> product.price</a>
+  </div>
+</div>
             `;
 
             const addToCartButton = cardItem.querySelector('.addToCartBtn');
