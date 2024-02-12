@@ -1,21 +1,21 @@
 [
     {
         "id": 1,
-        "Name": "",
+        "Name": "AUDI S3 SPIDER",
         "description": "White milo",
         "price": "20,000",
         "image": "COOL.PNG"
     },
     {
         "id": 2,
-        "Name": "gata",
+        "Name": "AUDI S3 SPIDER",
         "description": "Black gata",
         "price": "10,000",
         "image": "REH.PNG"
     },
     {
         "id": 3,
-        "Name": "SUKA",
+        "Name": "AUDI S3 SPIDER",
         "description": "WHITE SUKA",
         "price": "6,000",
         "image": "VOOY.PNG"
